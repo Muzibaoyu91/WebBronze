@@ -1,0 +1,78 @@
+/*   nav-bar   */
+#Baoyu-nav-bar {
+    top: 0px;
+    width: 100%;
+    height: 100px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a.nav-title {
+    color: #757575;
+    font-size:12px;
+    margin-top: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 0px;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 48px;  /* 行高 */
+    text-transform: uppercase;
+}
+
+img.nav-title {
+    float: right;   /* 浮动 */
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+
+img.userIcon{
+    float: right;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 3px;
+}
+
+/* 主体部分 */
+#Baoyu-body{
+    margin-top: 20px;
+}
+
+#bgLogo {
+    margin: 0 auto;
+    width: 272px;
+    height: 92px;
+    background: url("../images/google.png");
+    background-size: 272px 92px;
+}
+
+#Baoyu-search {
+    width: 360px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#search {
+    margin: 8px 0px 0px 0px;
+    width: 270px;
+    height: 25px;
+}
+
+#ipSearch {
+    -webkit-appearance: none;
+    width: 70px;
+    height: 30px;
+
+    background-color: #f5ffec;
+}
+
+
