@@ -1,0 +1,74 @@
+/* header */
+body {
+    font: 12px arial;
+}
+
+header{
+    /* 清除浮动 */
+    overflow: hidden;
+}
+
+header nav{
+    float: right;
+    margin: 19px 0 5px 0;
+    width: 440px;
+    text-align: center;
+
+}
+
+header a{
+    margin-left: 20px;
+    font-size: 13px;
+    display: inline-block;
+    float: left;
+    color: #333;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+#more {
+    padding: 0px 2px 0px 2px;
+    color: white;
+    background-color: #3385ff;
+    text-decoration: none;
+}
+
+
+/* body */
+.content {
+    width: 100%;
+    text-align: center;
+}
+
+.content img{
+    width: 270px;
+    height: 132px;
+}
+
+.content input{
+    width: 540px;
+    height: 36px;
+}
+
+.content button{
+    width: 100px;
+    height: 38px;
+    background-color: #3385ff;
+    color: white;
+    -webkit-appearance: none;
+    border-width: 0;
+    font-size: 15px;
+}
+
+
+/* footer */
+footer{
+    margin-top: 300px;
+    text-align: center;
+    color: #999;
+}
+
+footer a{
+    color: #999;
+
+}
