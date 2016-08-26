@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+body {
+    background: black;
+    width: 100%;
+    height: 800px;
+    font-size: 14px;
+}
+
+.wrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 40px auto;
+    width: 700px;
+    height: 700px;
+
+    background: white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+/* head */
+header {
+    width: 670px;
+    height: 100px;
+    margin: 0px 20px;
+}
+
+header img {
+    float: left;
+    width: 180px;
+    height: 76px;
+
+    border-radius: 30px;
+}
+
+header a {
+    float: right;
+    margin: 30px 7px 0px;
+    color: orange;
+    text-decoration: none;
+}
+
+.content {
+    width: 680px;
+    height: 550px;
+    margin: 0 10px;
+}
+
+caption {
+    margin: 5px 0px 10px;
+    font-size: large;
+    color: #2f4b80;
+    font-weight: 900;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table thead {
+    background: #d4d4d4;
+}
+
+table thead th{
+    height: 40px;
+    text-align: left;
+    color: #2f4b80;
+    padding: 0 10px;
+}
+
+table td{
+    height: 40px;
+    color: #4eb1ff;
+    text-align: left;
+    padding: 0 10px;
+}
+
+table input {
+    border-radius: 5px;
+    border-width: 1px;
+    width: 200px;
+}
+
+
+.description {
+    background: #efefef;
+    font-size: 13px;
+}
+
+.description th{
+    height: 55px;
+    padding: 0;
+}
+
+.description p{
+    font-weight: 100;
+    color: #858585;
+    margin: 10px 10px;
+}
+
+#pay {
+    margin: 10px 0px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #858585;
+}
+
+button {
+    margin: 8px 0px;
+    width: 100px;
+    height: 30px;
+    color: #e9ca27;
+    background: cornflowerblue;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #e9ca27;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px gray;
+}
